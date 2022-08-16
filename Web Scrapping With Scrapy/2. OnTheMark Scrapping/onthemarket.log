@@ -1,0 +1,250 @@
+2022-07-23 13:25:49 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-07-23 13:25:49 [scrapy.extensions.telnet] INFO: Telnet Password: 4104b0f6ada4b213
+2022-07-23 13:25:49 [py.warnings] WARNING: /home/adeel/anaconda3/lib/python3.9/site-packages/scrapy/extensions/feedexport.py:289: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+  exporter = cls(crawler)
+
+2022-07-23 13:25:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-07-23 13:25:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-07-23 13:25:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-07-23 13:25:49 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-07-23 13:25:49 [scrapy.core.engine] INFO: Spider opened
+2022-07-23 13:25:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-07-23 13:25:49 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-07-23 13:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.onthemarket.com/for-sale/property/london/?page=1> (referer: None)
+2022-07-23 13:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.onthemarket.com/for-sale/property/london/?page=3> (referer: None)
+2022-07-23 13:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.onthemarket.com/for-sale/property/london/?page=0> (referer: None)
+2022-07-23 13:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.onthemarket.com/for-sale/property/london/?page=2> (referer: None)
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom apartment for sale', 'Address': 'Trinity Road, Wandsworth, London, SW18', 'Price': '£475,000', 'Agency': 'Carter Jonas - Wandsworth', 'Phone': ' 020 8022 6807'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Elsenham Street, Southfields', 'Price': '£1,400,000', 'Agency': 'Kinleigh Folkard & Hayward - Southfields Sales', 'Phone': ' 020 8033 2449'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Devonshire Road, Forest Hill', 'Price': '£525,000', 'Agency': 'Kinleigh Folkard & Hayward - Forest Hill', 'Phone': ' 020 8022 6782'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Devonshire Road, Forest Hill', 'Price': '£550,000', 'Agency': 'Kinleigh Folkard & Hayward - Forest Hill', 'Phone': ' 020 8022 6782'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Sutherland Avenue, Maida Vale', 'Price': '£1,095,000', 'Agency': "Kinleigh Folkard & Hayward - St John's Wood Sales", 'Phone': ' 020 8033 2447'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Effra Road, Wimbledon', 'Price': '£550,000', 'Agency': 'Kinleigh Folkard & Hayward - Wimbledon Sales', 'Phone': ' 020 8033 2441'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Barry Road, East Dulwich', 'Price': '£600,000', 'Agency': 'Kinleigh Folkard & Hayward - East Dulwich Sales', 'Phone': ' 020 8033 2466'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '4 bedroom maisonette for sale', 'Address': 'Halesworth Road, Lewisham', 'Price': '£585,000', 'Agency': 'Mark Beaumont - London & Kent', 'Phone': ' 020 8852 5000'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom ground floor flat for sale', 'Address': 'Courthill Road, London', 'Price': '£295,000', 'Agency': 'Mark Beaumont - London & Kent', 'Phone': ' 020 8852 5000'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom detached house for sale', 'Address': 'Telegraph Hill, Hampstead, London, NW3', 'Price': '£4,950,000', 'Agency': 'Bargets - Regents Park', 'Phone': ' 020 8022 7276'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom apartment for sale', 'Address': '3 Fold House, Folio Gardens, London, WC1X', 'Price': '£1,675,000', 'Agency': 'Savills - London, Margaret Street, New Homes', 'Phone': ' 020 8022 6246'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '5 bedroom detached house for sale', 'Address': 'Cherry Close, Banstead', 'Price': '£750,000', 'Agency': 'Richard Saunders and Company - Banstead', 'Phone': ' 01737 483768'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Burford Road, London', 'Price': '£550,000', 'Agency': 'haart Estate Agents - East Ham', 'Phone': ' 020 8022 6672'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom maisonette for sale', 'Address': 'Trowbridge Road, Romford', 'Price': '£230,000', 'Agency': 'haart Estate Agents - Harold Wood', 'Phone': ' 01708 573651'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Albion Riverside Building, 8 Hester Road, London, SW11', 'Price': '£1,300,000', 'Agency': 'Knight Frank - Battersea & Riverside', 'Phone': ' 020 8022 7422'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom flat for sale', 'Address': 'Harrow Road, Wembley', 'Price': '£250,000', 'Agency': 'haart Estate Agents - Wembley', 'Phone': ' 020 8022 6543'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Morrish Road, London, SW2', 'Price': '£575,000', 'Agency': 'Aspire - Clapham High Street', 'Phone': ' 020 8022 7021'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom flat for sale', 'Address': 'The Nova Building, 79 Buckingham Palace Road, Victoria, London, SW1W', 'Price': '£912,000', 'Agency': 'Knight Frank - Belgravia, covering Westminster Sales', 'Phone': ' 020 8022 7027'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '3 bedroom semi-detached house for sale', 'Address': 'Kenton Road, Harrow', 'Price': '£685,000', 'Agency': 'haart Estate Agents - Harrow', 'Phone': ' 020 8022 7060'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom flat for sale', 'Address': 'Trafalgar Court, Wapping, E1W', 'Price': '£500,000', 'Agency': 'Knight Frank - Canary Wharf, Aldgate & Wapping', 'Phone': ' 020 8022 7340'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '1 bedroom block of apartments for sale', 'Address': 'Cambridge Close, London', 'Price': '£259,000', 'Agency': 'haart Estate Agents - Wembley', 'Phone': ' 020 8022 6543'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom apartment for sale', 'Address': 'Bastwick Street, London', 'Price': '£700,000', 'Agency': 'Felicity J. Lord - Clerkenwell', 'Phone': ' 020 8022 7193'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '2 bedroom flat for sale', 'Address': 'Strand, Covent Garden, London, WC2R', 'Price': '£2,395,000', 'Agency': 'Knight Frank - Mayfair', 'Phone': ' 020 8022 7334'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '3 bedroom end of terrace house for sale', 'Address': 'Warley Road, Upminster', 'Price': '£1,100,000', 'Agency': 'haart Estate Agents - Hornchurch', 'Phone': ' 01708 573652'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=1>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Montgomery Road, Edgware', 'Price': '£600,000', 'Agency': 'haart Estate Agents - Harrow', 'Phone': ' 020 8022 7060'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Harlesden', 'Price': '£750,000', 'Agency': 'Churchill & Mathesons - Harlesden', 'Phone': ' 020 8022 6583'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom flat for sale', 'Address': 'Carlyle Court,  Wimbledon Park Road, London', 'Price': '£1,250,000', 'Agency': 'Loney Miller - Southfields', 'Phone': ' 020 4517 3421'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom apartment for sale', 'Address': 'Rollason Way, Brentwood', 'Price': '£300,000', 'Agency': 'Keith Ashton Estate Agents - Brentwood', 'Phone': ' 01277 298746'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Queensland Avenue, Edmonton, N18', 'Price': '£465,000', 'Agency': 'Anthony Webb Estate Agents - Palmers Green', 'Phone': ' 020 8115 0202'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom flat for sale', 'Address': 'Old Park Ridings, London', 'Price': '£519,995', 'Agency': 'Capital Homes - Haringey', 'Phone': ' 020 8115 0431'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Chimes Avenue, London', 'Price': '£749,995', 'Agency': 'Capital Homes - Haringey', 'Phone': ' 020 8115 0431'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Boundary Road, London', 'Price': '£874,995', 'Agency': 'Capital Homes - Haringey', 'Phone': ' 020 8115 0431'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '1 bedroom flat for sale', 'Address': 'Hedge Lane, Palmers green, London', 'Price': '£300,000', 'Agency': 'Capital Homes - Haringey', 'Phone': ' 020 8115 0431'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '1 bedroom flat for sale', 'Address': 'Trinity Gardens, SW9', 'Price': '£375,000', 'Agency': 'Keating Estates - Clapham', 'Phone': ' 020 8033 7362'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom terraced house for sale', 'Address': 'Manchester Road, Isle of Dogs, E14', 'Price': '£675,000', 'Agency': 'Franklyn James - Docklands', 'Phone': ' 020 8022 7440'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '1 bedroom flat for sale', 'Address': 'Waldenshaw Road, SE23', 'Price': '£450,000', 'Agency': 'Keating Estates - Clapham', 'Phone': ' 020 8033 7362'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': 'Studio for sale', 'Address': 'Frognal Rise, Hampstead Village, NW3', 'Price': '£650,000', 'Agency': 'TK International - Hampstead', 'Phone': ' 020 8022 6995'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom flat for sale', 'Address': 'London Road, Enfield', 'Price': '£350,000', 'Agency': 'Lanes Estate Agents - Enfield', 'Phone': ' 020 8115 2181'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom detached house for sale', 'Address': 'Thamesgate Close, Richmond, TW10', 'Price': '£850,000', 'Agency': 'Curchods - Kingston', 'Phone': ' 020 8022 6702'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '4 bedroom semi-detached house for sale', 'Address': 'Whipps Cross Road, Leytonstone E11', 'Price': '£900,000', 'Agency': 'Birchills - Leytonstone', 'Phone': ' 020 7768 1160'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom apartment for sale', 'Address': 'Queens Reach, East Molesey', 'Price': '£800,000', 'Agency': 'Newton Huxley - Surrey', 'Phone': ' 020 3641 1534'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '1 bedroom flat for sale', 'Address': 'Wellesley Road, London, W4', 'Price': '£450,000', 'Agency': 'Whitman and Co - Chiswick', 'Phone': ' 020 8115 3046'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '3 bedroom house for sale', 'Address': 'Stanley Road South, Rainham', 'Price': '£500,000', 'Agency': 'Griffin Residential - Essex', 'Phone': ' 01708 573075'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom flat for sale', 'Address': 'Southbury Road, Enfield', 'Price': '£330,000', 'Agency': 'Kings Group - Enfield Town', 'Phone': ' 020 8115 2861'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom maisonette for sale', 'Address': 'Northumberland Park, Tottenham, London', 'Price': '£340,000', 'Agency': 'Kings Group - Tottenham', 'Phone': ' 020 8115 8784'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom house for sale', 'Address': 'Lechmere Road, London', 'Price': '£799,950', 'Agency': 'Camerons Stiff & Co - Willesden Lane', 'Phone': ' 020 4537 6984'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom apartment for sale', 'Address': 'Ivy Road, London', 'Price': '£375,000', 'Agency': 'haart Estate Agents - Southgate', 'Phone': ' 020 8022 6530'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Stockton Road, London N18', 'Price': '£415,000', 'Agency': 'Sanctuary Properties - Hatfield', 'Phone': ' 020 8128 5002'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '1 bedroom apartment for sale', 'Address': 'Argyle Street, Bloomsbury, London, WC1H', 'Price': '£475,000', 'Agency': 'Hudsons - Fitzrovia', 'Phone': ' 020 8022 7223'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Devonshire Road, Forest Hill', 'Price': '£525,000', 'Agency': 'Kinleigh Folkard & Hayward - Forest Hill', 'Phone': ' 020 8022 6782'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Chase Side Avenue, Wimbledon', 'Price': '£800,000', 'Agency': 'Kinleigh Folkard & Hayward - Wimbledon Sales', 'Phone': ' 020 8033 2441'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '5 bedroom detached house for sale', 'Address': 'Half Moon Lane, Herne Hill', 'Price': '£2,500,000', 'Agency': 'Kinleigh Folkard & Hayward - Dulwich Village', 'Phone': ' 020 8022 7083'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Duke Road, Chiswick', 'Price': '£1,300,000', 'Agency': 'Kinleigh Folkard & Hayward - Chiswick Sales', 'Phone': ' 020 8033 2476'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': "Hilltop Court, St John's Wood", 'Price': '£625,000', 'Agency': "Kinleigh Folkard & Hayward - St John's Wood Sales", 'Phone': ' 020 8033 2447'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Cathles Road, Balham', 'Price': '£629,950', 'Agency': 'Kinleigh Folkard & Hayward - Balham Sales', 'Phone': ' 020 8033 2489'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '1 bedroom flat for sale', 'Address': 'Gloucester Terrace, Bayswater', 'Price': '£575,000', 'Agency': 'Kinleigh Folkard & Hayward - Bayswater Sales', 'Phone': ' 020 8033 2486'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Holland Park Gardens, Holland Park', 'Price': '£1,400,000', 'Agency': 'Kinleigh Folkard & Hayward - Holland Park Sales', 'Phone': ' 020 8033 2461'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '4 bedroom end of terrace house for sale', 'Address': 'Regency Mews, Beckenham', 'Price': '£800,000', 'Agency': 'Kinleigh Folkard & Hayward - Beckenham Sales', 'Phone': ' 020 8033 2485'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom flat for sale', 'Address': 'Beaumont Crescent, West Kensington', 'Price': '£995,000', 'Agency': 'Kinleigh Folkard & Hayward - Brook Green Sales', 'Phone': ' 020 8022 7418'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Innes Gardens, Putney', 'Price': '£385,000', 'Agency': 'Kinleigh Folkard & Hayward - Putney Sales', 'Phone': ' 020 8033 2452'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': 'Studio for sale', 'Address': 'Red Lodge Road, West Wickham', 'Price': '£90,000', 'Agency': 'Kinleigh Folkard & Hayward - West Wickham', 'Phone': ' 020 8022 6818'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Glengall Road, Peckham', 'Price': '£675,000', 'Agency': 'Kinleigh Folkard & Hayward - Peckham Rye Sales', 'Phone': ' 020 8022 6911'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Ashlake Road, Streatham', 'Price': '£550,000', 'Agency': 'Kinleigh Folkard & Hayward - Streatham Sales', 'Phone': ' 020 8033 2445'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom terraced house for sale', 'Address': 'Derinton Road, Tooting', 'Price': '£600,000', 'Agency': 'Kinleigh Folkard & Hayward - Tooting Sales', 'Phone': ' 020 8033 2443'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '3 bedroom flat for sale', 'Address': 'Maple Mews, Streatham', 'Price': '£425,000', 'Agency': 'Kinleigh Folkard & Hayward - Streatham Sales', 'Phone': ' 020 8033 2445'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Warwick Drive, Putney', 'Price': '£525,000', 'Agency': 'Kinleigh Folkard & Hayward - West Putney', 'Phone': ' 020 8022 6822'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '4 bedroom terraced house for sale', 'Address': 'Highbury Square, London', 'Price': '£820,000', 'Agency': 'Blueprints & Co Properties - Edmonton', 'Phone': ' 020 4516 9679'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=3>
+{'Title': '2 bedroom flat for sale', 'Address': 'The Phoenix, Barrett Street, Marylebone W1U', 'Price': '£1,900,000', 'Agency': 'Napier Watt - Mayfair', 'Phone': ' 020 8022 7037'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom apartment for sale', 'Address': 'Manor Park Road, London, N2', 'Price': '£550,000', 'Agency': 'Prickett & Ellis - Muswell Hill', 'Phone': ' 020 8022 1140'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom semi-detached house for sale', 'Address': 'Whitewebbs Way, Orpington', 'Price': '£450,000', 'Agency': 'haart Estate Agents - Orpington', 'Phone': ' 01689 326844'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '1 bedroom flat for sale', 'Address': 'Chelsea Botanica, London, sw6', 'Price': '£700,000', 'Agency': 'Knight Frank - City & East, Residential Development', 'Phone': ' 020 8022 6382'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom semi-detached house for sale', 'Address': 'Mansfield Drive, Hayes', 'Price': '£525,000', 'Agency': 'haart Estate Agents - Hayes', 'Phone': ' 020 8022 6717'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '4 bedroom semi-detached house for sale', 'Address': 'Mallard Place, Twickenham, TW1', 'Price': '£1,495,000', 'Agency': 'Knight Frank - Richmond', 'Phone': ' 020 8022 6549'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '1 bedroom apartment for sale', 'Address': 'Durham Road, Harrow', 'Price': '£300,000', 'Agency': 'haart Estate Agents - Harrow', 'Phone': ' 020 8022 7060'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom terraced house for sale', 'Address': 'Hall Road, London', 'Price': '£450,000', 'Agency': 'haart Estate Agents - East Ham', 'Phone': ' 020 8022 6672'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '5 bedroom semi-detached house for sale', 'Address': 'Huntsman Road, Ilford IG6', 'Price': '£550,000', 'Agency': 'Bethel Property - Gants Hill', 'Phone': ' 020 8033 1757'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '4 bedroom semi-detached house for sale', 'Address': 'Priory Road, Romford', 'Price': '£750,000', 'Agency': "Delaney's Estate Agent - Harold wood", 'Phone': ' 01708 954698'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom end of terrace house for sale', 'Address': 'Old Dairy Square, Winchmore Hill', 'Price': '£550,000', 'Agency': 'Havilands - Winchmore Hill', 'Phone': ' 020 8115 0344'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '4 bedroom detached house for sale', 'Address': 'Dartmouth Road, London', 'Price': '£3,800,000', 'Agency': 'Camerons Stiff & Co - Willesden Lane', 'Phone': ' 020 4537 6984'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '4 bedroom house for sale', 'Address': 'Helena Road, London', 'Price': '£1,250,000', 'Agency': 'Camerons Stiff & Co - Willesden Lane', 'Phone': ' 020 4537 6984'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '5 bedroom terraced house for sale', 'Address': 'Whitmore Gardens, London', 'Price': '£1,325,000', 'Agency': 'Camerons Stiff & Co - Willesden Lane', 'Phone': ' 020 4537 6984'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom flat for sale', 'Address': 'Elmwood Court, Wembley', 'Price': '£375,000', 'Agency': 'Daniel Estate Agents - Sudbury', 'Phone': ' 020 8115 0944'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '1 bedroom flat for sale', 'Address': 'Havant Road, Walthamstow', 'Price': '£425,000', 'Agency': 'Kings Group - Walthamstow', 'Phone': ' 020 8115 2862'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom terraced house for sale', 'Address': 'Kenilworth Avenue, London', 'Price': '£500,000', 'Agency': 'Kings Group - Walthamstow', 'Phone': ' 020 8115 2862'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom maisonette for sale', 'Address': 'Panmuir Road, West Wimbledon, SW20', 'Price': '£579,000', 'Agency': 'Fuller Gilbert & Company - Raynes Park', 'Phone': ' 020 8128 1720'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom flat for sale', 'Address': 'Farnley Road, London', 'Price': '£375,000', 'Agency': 'Jukes & Co - South Norwood', 'Phone': ' 020 8115 3108'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '1 bedroom flat for sale', 'Address': 'Hawker Place, London', 'Price': '£350,000', 'Agency': 'Kings Group - Walthamstow', 'Phone': ' 020 8115 2862'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '2 bedroom flat for sale', 'Address': 'The Driftbridge, Reigate Road, Epsom', 'Price': '£350,000', 'Agency': 'The Personal Agent - Epsom', 'Phone': ' 01372 434822'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '1 bedroom flat for sale', 'Address': 'Lombard Road, Battersea', 'Price': '£399,950', 'Agency': 'Kinleigh Folkard & Hayward - Battersea Park Sales', 'Phone': ' 020 8033 2487'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=0>
+{'Title': '2 bedroom flat for sale', 'Address': 'Blue Anchor Lane, Rotherhithe', 'Price': '£475,000', 'Agency': 'Kinleigh Folkard & Hayward - Canada Water Sales', 'Phone': ' 020 8033 2479'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '3 bedroom end of terrace house for sale', 'Address': 'Blackhorse Road, London', 'Price': '£650,000', 'Agency': 'Kings Group - Walthamstow', 'Phone': ' 020 8115 2862'}
+2022-07-23 13:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.onthemarket.com/for-sale/property/london/?page=2>
+{'Title': '4 bedroom detached house for sale', 'Address': 'Monro Place, Epsom', 'Price': '£1,100,000', 'Agency': 'The Personal Agent - Epsom', 'Phone': ' 01372 434822'}
+2022-07-23 13:25:50 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-07-23 13:25:50 [scrapy.extensions.feedexport] INFO: Stored csv feed (92 items) in: onthemarket.csv
+2022-07-23 13:25:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1376,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 406478,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'elapsed_time_seconds': 1.617647,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 23, 8, 25, 50, 980481),
+ 'httpcompression/response_bytes': 2445179,
+ 'httpcompression/response_count': 4,
+ 'item_scraped_count': 92,
+ 'log_count/DEBUG': 97,
+ 'log_count/INFO': 11,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 92389376,
+ 'memusage/startup': 92389376,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2022, 7, 23, 8, 25, 49, 362834)}
+2022-07-23 13:25:50 [scrapy.core.engine] INFO: Spider closed (finished)

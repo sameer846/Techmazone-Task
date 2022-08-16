@@ -1,0 +1,14 @@
+from string import Template
+import random
+
+import pandas as pd
+import numpy as np
+
+from email.mime.multipart import MIMEMultipart   # Multipurpose Internet Mail Extensions
+from email.mime.text import MIMEText 
+import smtplib
+from email.mime.application import MIMEApplication
+
+import PyPDF2 as pdf
+
+from glob import glob
